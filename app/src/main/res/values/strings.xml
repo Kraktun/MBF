@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MBF</string>
+    <string name="discover_none">Non discoverable</string>
+    <string name="discover_connected">Only connected</string>
+    <string name="discover_all">Discoverable</string>
+    <string name="button_done">Done</string>
+</resources>

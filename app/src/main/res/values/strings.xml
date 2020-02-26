@@ -4,4 +4,7 @@
     <string name="discover_connected">Only connected</string>
     <string name="discover_all">Discoverable</string>
     <string name="button_done">Done</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_apply">Apply</string>
+    <string name="current_mode"><![CDATA[Current mode is: <i><b>%1$s</b></i>]]></string>
 </resources>

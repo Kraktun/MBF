@@ -11,24 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
         <activity
-            android:name=".TaskerActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
             android:enabled="true"
             tools:ignore="ExportedActivity">
-            <!-- this Intent filter allows the plug-in to be discovered by the host. -->
             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
